@@ -1,20 +1,19 @@
-# 🚀  QucikWorkReport 🚀 
-Python脚本-用于生成指定Git账号在任意时间、指定文件目录下的所有Git仓库的提交记录生成周报、月报。
-## 时间都是挤出来的 🏃
-### 脚本自带去重提交记录、替换feat: fixed: 等前缀，并去重提交记录
-在脚本中配置以下下参数
+# 🚀  fxxx-work-report 🚀 
+Python script - used to generate weekly and monthly reports of commit records of all Git repositories under specified file directories for a specified Git account.
+### The script comes with functions that remove duplicate commit records, replace prefixes such as feat: fixed:, and remove duplicate commit records.
+Configure the following parameters in the script:
 ````python
-# 本机git账号
+# Local git account
 git_username = "nicezz"
 
-# 要查找的git项目路径列表
+# List of git project paths to search
 project_paths = [
     "/Users/nicezz/IdeaProjects/",
     "/Users/nicezz/WebstormProjects/"
 ]
 
-# 保存记录的路径
+# Path to save the records
 output_path = "/Users/nicezz/temp/"
 ````
-### 执行main方法后，会在output_path指定的目录下生成报告文档。
+### After executing the main method, a report document will be generated in the directory specified by output_path.
 <img width="400" alt="image" src="https://user-images.githubusercontent.com/22947965/227078731-ab4f526f-e343-4e0d-b6c7-e15f910fdee5.png">
