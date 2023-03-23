@@ -1,4 +1,4 @@
-# QucikWorkReport
+# QucikWorkReport 🏃🏃
 Python脚本-用于生成指定Git账号在任意时间、指定文件目录下的所有Git仓库的提交记录生成周报、月报。
 ### 脚本自带去重提交记录、替换feat: fixed: 等前缀，并去重提交记录
 在脚本中配置以下下参数
