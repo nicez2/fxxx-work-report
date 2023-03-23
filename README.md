@@ -1,6 +1,7 @@
 # QucikWorkReport
 Python脚本-用于生成指定Git账号在任意时间、指定文件目录下的所有Git仓库的提交记录生成周报、月报...
-在脚本中配置一下参数
+在脚本中配置以下下参数
+````python
 # 本机git账号
 git_username = "nicezz"
 
@@ -12,3 +13,4 @@ project_paths = [
 
 # 保存记录的路径
 output_path = "/Users/nicezz/temp/"
+````
