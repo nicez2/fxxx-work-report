@@ -16,5 +16,5 @@ project_paths = [
 # 保存记录的路径
 output_path = "/Users/nicezz/temp/"
 ````
-执行main方法后，会在output_path指定的目录下生成报告文档。
-<img width="200" alt="image" src="https://user-images.githubusercontent.com/22947965/227078731-ab4f526f-e343-4e0d-b6c7-e15f910fdee5.png">
+### 执行main方法后，会在output_path指定的目录下生成报告文档。
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/22947965/227078731-ab4f526f-e343-4e0d-b6c7-e15f910fdee5.png">
